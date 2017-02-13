@@ -45,7 +45,6 @@ class circularGauge {
     pushMatrix();
     translate(centerX,centerY);
     rotate(radians(calculateLocalValue(a-b)+90));
-    //rotate(frameCount*radians(90) / 20);
     //translate(0, -60);
     triangle(-(0.1*diameter)/2, 0, 0, -0.5*diameter, (0.1*diameter)/2, 0);
     popMatrix();
