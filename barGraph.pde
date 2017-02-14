@@ -28,7 +28,6 @@ class barGraph {
     for (float i=0;i<4;i++) {
       rect(left + (barWidth*i)+30, top, barWidth, barHeight);
     }
-    println(str(barWidth*1+20));
   }
   
 }
